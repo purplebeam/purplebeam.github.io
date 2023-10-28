@@ -4,10 +4,10 @@
 
 header {
     display: flex;
-    justify-content: center;
     background-color: lightblue;
     border-radius: 25px;
     margin: 1.1em;
+    font-size:xx-large;
 }
 
 main {
@@ -26,10 +26,19 @@ footer {
 
 .navbarpu {
     display: flex;
-    margin: 10px;
+    align-items: center;
+    margin: 5px;
     text-decoration: none;
+
 }
 
 .navbardisplay {
     display: flex;
+}
+
+.icon-logo {
+    display: flex;
+    justify-content: left;
+    width: 10em;
+    height: auto;
 }
