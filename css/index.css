@@ -1,0 +1,35 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    border-radius: 25px;
+    margin: 1.1em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: teal;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    border-radius: 25px;
+    margin: 1.1em;
+}
+
+.navbarpu {
+    display: flex;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.navbardisplay {
+    display: flex;
+}
