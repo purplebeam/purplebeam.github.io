@@ -1,0 +1,40 @@
+body {
+    background-color: #C7D7DE; /* Serenity */
+}
+header {
+    width: 60%;
+    height: auto;
+    background-image: linear-gradient(to top,#281C2D,#695E93); /* Ebony and Purple */ 
+    border: 3px solid #BEAFC2; /* Purple Haze */
+    border-radius: 50px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.main-title {
+    color: #F3EFEF; /* Light Beige */
+    font-family: 'Russo One', sans-serif;
+    font-size: 40px;
+}
+
+.my-name {
+    padding-top: 2%;
+    color: #F3EFEF; /* Light Beige */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.my-job {
+    line-height: 0.1rem;
+    padding-bottom: 2%;
+    color: #F3EFEF; /* Light Beige */
+    font-family: 'Russo One', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.about-me{
+    width: 85%;
+    margin-top: 5%;
+    border: 3px solid #BEAFC2;
+}
