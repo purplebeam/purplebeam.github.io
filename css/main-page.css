@@ -1,0 +1,52 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:   #2F2A45;
+}
+
+nav {
+    border-radius: 0.5rem;
+}
+.mybrandnavbar {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#F8F859;
+    font-size: 3rem;
+}
+
+.mybrandnavbar:hover {
+    color: #F8F859;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.navbar-custom, .navbar-link-custom {
+    opacity: 60%;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding:1.5rem;
+    margin: 0.5rem;
+    color: #F8F859;
+}
+
+.navbar-link-custom:hover {
+    opacity: 100%;
+    background-color: #000;
+    color: #F8F859;
+    border-radius: 0.5rem;
+    
+}
+
+.background-navbar {
+    background-color: #0F0D12;
+    opacity: 60%;
+}
