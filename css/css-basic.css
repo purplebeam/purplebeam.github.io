@@ -18,8 +18,9 @@ padding:0;
 
 .container-titles {
     display: flex;
-
+    margin: 0.8rem;
 }
+
 .container-main {
 display: flex;
 flex-direction: row;
@@ -31,7 +32,6 @@ flex-direction: column;
 align-items: start;
 justify-content: start;
 width: 70%;
-border: 2px solid red;
 }
 
 /* Categories Box Styling: Main Page  (Start)*/
@@ -94,8 +94,9 @@ border: 2px solid red;
 
 
 
-.articles-main {
+.articles-column {
     display:flex;
+    flex-direction: row;
     align-items:center;
     width: 100%;
 }
