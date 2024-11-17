@@ -1,48 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
-html {
+* {
     background-color: beige;
     box-sizing:border-box;
+    margin:0;
+    padding:0;
 }
+
 
 .container-top {
 display: flex;
 flex-direction: column;
 align-items: center;
+margin:0;
+padding:0;
 }
 
+.container-titles {
+    display: flex;
+
+}
 .container-main {
 display: flex;
+flex-direction: row;
+}
+
+.container-articles {
+display: flex;
+flex-direction: column;
 align-items: start;
+justify-content: start;
+width: 70%;
+border: 2px solid red;
 }
 
-.myskill-box {
-    display: inline-block;
-    align-items: center;
+/* Categories Box Styling: Main Page  (Start)*/
+.container-categories {
+    display: flex;
+    width: 30%;
+    align-items:end;
     flex-direction: column;
-    width: 50%;
-}
-
-.menu-box {
-    display: inline-flex;
-    flex-direction: row;
-}
-
-.menu {
-    margin: 35px;
-    padding: 10px;
     border: 2px solid black;
 }
 
-.mycontact-details {
-    display: inline-flex;
-    align-items:center;
+.skill-list {
+    display: flex;
     flex-direction: column;
-    width: 50%;
+    justify-content: start;
 }
 
-.skill-title {
-    text-align: center;
+.categories-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
 }
 
 .skill-icons {
@@ -51,7 +62,7 @@ align-items: start;
 }
 
 .skill-item {
-    width: 20%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -61,8 +72,80 @@ align-items: start;
     border: 2px solid black;
 }
 
+
+
 .skill-item-title {
     margin: 15px;
 }
 
+/* Categories Box Styling: Main Page  (End) */
 
+.menu {
+    margin: 35px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+
+.menu-box {
+    display:flex;
+    flex-direction: row;
+}
+
+
+
+.articles-main {
+    display:flex;
+    align-items:center;
+    width: 100%;
+}
+
+
+.article-image {
+    width: 100%;
+    height: 300px;
+}
+
+.article-box {
+    display: flex;
+    margin: 10px;
+
+}
+
+.articles-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+
+}
+
+.article-box-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid purple;
+}
+
+.article-details {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border-top: 3px dashed red;
+    border-bottom: 3px dashed red;
+}
+
+.article-category {
+    margin: 0.5rem;
+    border: 1px solid purple;
+    background-color: cadetblue;
+    color: antiquewhite;
+    padding: 0.3rem;
+    border-radius: 0.4rem;
+}
