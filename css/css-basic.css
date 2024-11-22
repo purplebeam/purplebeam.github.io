@@ -23,6 +23,7 @@
 
 .container-top h1, .container-top h3 {
     background-color: transparent;
+    color: rgba(242, 204, 143, 1); 
 }
 
 .container-titles {
