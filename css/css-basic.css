@@ -122,6 +122,10 @@ width: 70%;
     transition: transform 0.6s cubic-bezier(0.61, 1, 0.88, 1);
 }
 
+.menu a {
+    text-decoration: none;
+}
+
 .menu:hover {
     transform: translateY(-5px);
     text-decoration: underline red;
@@ -200,4 +204,13 @@ width: 70%;
     background-color: cadetblue;
     padding: 0.3rem;
     border-radius: 0.4rem;
+}
+
+.disabled-menu {
+    color: grey;
+}
+
+.disabled-menu:hover {
+    transform: none;
+    text-decoration:line-through grey;
 }
