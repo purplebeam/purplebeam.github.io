@@ -1,0 +1,148 @@
+/* Resume Cards */
+body {
+    background-color: rgba(61, 64, 91, 0.9);
+    color: rgba(242, 204, 143, 1);
+    font-family: "Roboto", sans-serif;
+}
+
+.home-titles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+}
+
+.career-details {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.container-myeducation li {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: transparent;
+}
+
+.container-workexperience li {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: transparent;
+}
+
+/* Terminal Window Styling */
+.terminal-window {
+    width: 80%;
+    max-width: 800px;
+    height: 60%;
+    max-height: 600px;
+    background-color: #1E1E1E; /* Apple Terminal background color */
+    color: #FFFFFF;
+    font-family: "Source Code Pro", monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid #333333;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+}
+
+/* Header Styling */
+.window-header {
+    background-color: #2C2C2E; /* Slightly darker for the header */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between traffic lights */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 40px;
+}
+
+.window-content {
+    padding: 20px;
+    overflow-y: auto; /* Enable vertical scrolling only when content overflows */
+    scrollbar-width: thin; /* Optional: For thin scrollbars */
+    scrollbar-color: rgba(242, 204, 143, 0.8) transparent;
+    width: 100%;
+    height: 300px;
+    animation: typing-paragraph 2s steps(60, end), colorTransition 2s 2s forwards;
+}
+
+/* Traffic Light Buttons */
+.traffic-light {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%; /* Circular buttons */
+    display: inline-block;
+    position: relative;
+    margin-left: 8px;
+}
+
+/* Individual Button Colors */
+.close {
+    background-color: #FF605C; /* Red */
+}
+
+.minimize {
+    background-color: #FFBD44; /* Yellow */
+}
+
+.maximize {
+    background-color: #00CA4E; /* Green */
+}
+
+.traffic-light:hover {
+    filter: brightness(90%);
+    cursor: pointer;
+}
+
+/* Welcome Container Styling */
+.welcome-container {
+    background-color: #1E1E1E; /* Terminal-inspired dark background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 800px;
+    text-align: center;
+    border: 1px solid #333333;
+}
+
+/* Typing Animation for Paragraph */
+@keyframes typing-paragraph {
+    from {
+        overflow: hidden;
+        width: 10%; /* Start typing from 0 width */
+    }
+    to {
+        overflow: hidden;
+        width: 100%; /* Finish typing to full text width */
+    }
+}
+
+
+.welcome-container:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.soundcloud-container {
+    background-color: #1E1E1E; /* Terminal-inspired dark background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    border: 1px solid #333333;
+}

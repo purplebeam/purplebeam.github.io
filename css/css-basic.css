@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 * {
-    background-color: rgba(61, 64, 91, 0.9);
-    color: rgba(242, 204, 143, 1);
     box-sizing:border-box;
     margin:0;
     padding:0;
 }
 
+
+body {
+    background-color: rgba(61, 64, 91, 0.9);
+    color: rgba(242, 204, 143, 1);
+    font-family: "Roboto", sans-serif;
+}
 
 .container-top {
     display: flex;
@@ -29,7 +33,14 @@
     align-items: start;
     justify-content: center;
     background-color: transparent;
-    color: rgba(242, 204, 143, 1); 
+    font-family: "Orbitron", sans-serif; 
+}
+
+.welcome-message span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    animation: 3s linear 1s slide-in;
 }
 
 .container-titles {
@@ -115,6 +126,7 @@ width: 70%;
 .menu {
     display: flex;
     flex-direction: column;
+    font-family: "Orbitron", sans-serif;
     font-size: 2rem;
     margin-left: 50px;
     padding: 0.5rem;
@@ -124,6 +136,7 @@ width: 70%;
 
 .menu a {
     text-decoration: none;
+    color: inherit;
 }
 
 .menu:hover {
