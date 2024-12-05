@@ -21,8 +21,8 @@ body {
     z-index: 10;
     justify-content: space-between;
     width: 100%;
-    padding: 10px;
-    background-color: rgba(48, 25, 52, 0.9);
+    padding: 2.5vh;
+    background-color: rgba(28, 28, 28,0.9); /* Graphite Black  */
     border-bottom: 0.1rem solid #E2FFE7;
 }
 
@@ -93,7 +93,7 @@ ul {
     font-family: "Source Code Pro", monospace;
     font-size: 1.5rem;
     margin-left: 50px;
-    padding: 0.5rem;
+    padding: 1vw;
     background-color: transparent;
     transition: transform 0.6s cubic-bezier(0.61, 1, 0.88, 1);
 }
@@ -105,23 +105,15 @@ ul {
 
 .menu:hover {
     color: #E5D4FF;
-    background-color: #2e2e3e;
-    padding: 10px;
-    border: 1px solid #E5D4FF;
+    background-color: rgba(201, 42, 42,0.2);
+    border: 1px solid rgb(201, 42, 42);
     border-radius: 10px 10px;
-    transform: translateY(-5px);
-    text-decoration: underline #E5D4FF;
+    padding: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    transform: translateY(-1vh);
     cursor: pointer;
-    transition: transform 0.6s cubic-bezier(0.12, 0, 0.39, 0);
-}
-
-.disabled-menu {
-    color: grey;
-}
-
-.disabled-menu:hover {
-    transform: none;
-    text-decoration: line-through grey;
+    transition: transform 0.4s cubic-bezier(0.12, 0, 0.39, 0);
 }
 
 /* Menu Box Styling */

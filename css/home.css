@@ -54,7 +54,7 @@ body {
 
 /* Header Styling */
 .window-header {
-    background-color: #301934; /* Slightly darker for the header */
+    background-color: rgba(201, 42, 42,1); /* Slightly darker for the header */
     padding: 10px;
     display: flex;
     align-items: center;
@@ -150,4 +150,52 @@ body {
 .categories-tags {
     margin-left: 20px;
     color: #E5D4FF;
+}
+
+
+
+
+/* Glossary Item Review Page */
+
+.glossary-item-review-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.glossary-item-box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 40%;
+}
+
+.type-of-term-photo {
+    width: 60%;
+    max-width: 60%;
+    height: 60%;
+    max-height: 60%;
+    background-color: #1E1E1E;
+    color: #E2FFE7;
+    font-family: "Source Code Pro", monospace;
+    font-size: 18px;
+    line-height: 2.5;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid #333333;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+}
+
+.type-photo {
+    width: 100%;
+    max-height: 100%;
+    padding: 5%;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
